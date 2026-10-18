@@ -4,9 +4,7 @@ class Solution:
         total = 0
 
         for num in nums:
-            total = total + num
+            total = total+num
             result.append(total)
 
         return result
-
-      
