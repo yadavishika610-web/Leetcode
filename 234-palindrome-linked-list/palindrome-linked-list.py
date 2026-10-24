@@ -8,7 +8,7 @@ class Solution:
         value = []
         current = head
 
-        while current:
+        while current is not None:
             value.append(current.val)
             current = current.next
 
